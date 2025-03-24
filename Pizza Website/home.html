@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- swiper cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <!-- custom css link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- header section starts -->
+
+    <header class="header">
+
+        <a href="home.html" class="">
+            <img src="images/logo.png" alt="Mihalys Pizza Logo" class="logo-img">
+        </a>
+        <nav class="navbar">
+            <a href="home.html">Acasa</a>
+            <a href="about.html">Despre noi</a>
+            <a href="menu.html">Meniu</a>
+            <a href="gallery.html">Galerie</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="icons">
+            <div id="cart" class="fas fa-shopping-cart"></div>
+            <div id="login" class="fas fa-user"></div>
+            <div id="menu" class="fas fa-bars"></div>
+        </div>
+
+        <div class="shopping-cart">
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart-1.png" alt="">
+                <div class="content">
+                    <h3>Pizza Quatro Stagioni</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">x</span>
+                    <span class="price"> 45 ron  </span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart-2.png" alt="">
+                <div class="content">
+                    <h3>Pizza Rustica</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">x</span>
+                    <span class="price">45 ron</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart-3.png" alt="">
+                <div class="content">
+                    <h3>Pizza Mozzarela</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">x</span>
+                    <span class="price">45 ron</span>
+                </div>
+            </div>
+            <h3 class="total">total: 135 Ron</h3>
+            <a href="#" class="btn">Finalizare Comanda</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>login form</h3>
+            <input type="email" placeholder="Email" class="box">
+            <input type="password" placeholder="Password" class="box">
+            <div class="remember">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">remember me</label>
+            </div>
+            <input type="submit" value="login" class="btn">
+        </form>
+       
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts -->
+
+    <section class="home">
+
+        <div class="swiper home-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide" style="background: url(images/slider-1.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>Cea mai buna <span>Pizza</span> din Timisoara </h3>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(images/slider-2.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>Cea mai buna <span>Pizza</span> din Timisoara </h3>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(images/slider-3.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>Cea mai buna <span>Pizza</span> din Timisoara </h3>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- banner section starts -->
+
+    <section class="banner">
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/banner-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>pizza</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/banner-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>dessert</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/banner-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>paste</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/banner-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>vinuri</h3>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- banner section ends -->
+
+    <!-- steps section starts -->
+
+    <section class="steps">
+
+        <h1 class="title">Cum <span>functioneaza?</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/work-1.gif" alt="">
+                <h3>alege-ți mâncarea preferată</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/work-2.gif" alt="">
+                <h3>livrare gratuita si rapida</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/work-3.gif" alt="">
+                <h3>metode de plată ușoare</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/work-4.gif" alt="">
+                <h3>și, în sfârșit, bucurați-vă de mâncare</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- steps section ends -->
+
+    
+    <!-- footer section starts -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Ne gasesti aicea</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo ad</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact</h3>
+                <p>+123-456-7890</p>
+                <a href="#" class="link">szilard.mihaly00@e-uvt.ro</a>
+            </div>
+
+            <div class="box">
+                <h3>Localizare</h3>
+                <p>timisoara</p>
+            </div>
+
+        </div>
+        
+    <!-- swiper cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js link -->
+    <script src="script.js"></script>
+
+</body>
+</html>
